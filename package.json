@@ -1,0 +1,33 @@
+{
+  "name": "fizz-buzz-api",
+  "version": "1.0.0",
+  "description": "API to return FizzBuzz numbers",
+  "main": "build/index.js",
+  "scripts": {
+    "ts-build": "tsc",
+    "lint": "eslint src/**",
+    "lint-fix": "eslint src/** --fix",
+    "build": "del-cli --force ./build && tsc",
+    "start": "yarn build && node ./build/index.js"
+  },
+  "author": "Márcio Gomes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/boom": "7.2.1",
+    "@types/hapi": "^18.0.7",
+    "@types/node": "^18.8.3",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@hapi/vision": "5.5.4",
+    "boom": "7.3.0",
+    "del-cli": "^5.0.0",
+    "dotenv": "^16.0.3",
+    "hapi": "17.8.5",
+    "hapi-swagger": "9.4.2",
+    "inert": "^5.1.3"
+  }
+}
