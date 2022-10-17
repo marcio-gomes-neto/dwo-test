@@ -9,7 +9,7 @@ API que retorna números baseados em seus divisores, de 1 até 100
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/marcio-gomes-neto/dwo-test.git
 ```
 
 Entre no diretório do projeto
